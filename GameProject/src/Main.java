@@ -22,9 +22,9 @@ public class Main {
 		gamer.setPassword("1234");
 		
 		Customer customer = new Customer();
-		customer.setFirstName("Furkan Berk");
-		customer.setLastName("Akdaþ");
-		customer.setNationaltyId("67762196532");
+		customer.setFirstName("Your First Name");
+		customer.setLastName("Your Last Name");
+		customer.setNationaltyId("Your Nationalty Id"); 
 		customer.setDateOfBirthday(new Date(1996,3,26));
 		
 		GamerManager gamerManager = new GamerManager(new CustomerCheckManager());
